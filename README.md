@@ -1,10 +1,10 @@
 # quick_fastq_download
 BASH SCRIPT FOR FASTER FASTQ DOWNLOAD WITH OPTIONAL GZIPING
-# Fast FASTQ Downloader
+### Fast FASTQ Downloader
 
 A Bash script for fast downloading and processing of FASTQ files from the NCBI Sequence Read Archive (SRA).
 
-## Features
+### Features
 
 - Parallel downloading of SRA files using prefetch
 - Conversion of SRA to FASTQ format using fasterq-dump
@@ -12,7 +12,7 @@ A Bash script for fast downloading and processing of FASTQ files from the NCBI S
 - Configurable number of background jobs
 - Optional organization of paired-end reads into separate directories
 
-## Usage
+### Usage
 
 ```bash
 ./fq-down -p <background_job_number> -f <sra_text_file_path> -g -d <directory_suffix>
